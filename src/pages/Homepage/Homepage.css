@@ -1,0 +1,33 @@
+nav {
+  height: 80px;
+  display: flex;
+  align-items: center;
+  padding-left: 40px;
+}
+
+nav button {
+  background: none;
+  border: none;
+  margin: 0px 10px;
+  color: #fff;
+}
+
+nav button:hover {
+  color: #6d56fc;
+}
+
+.main-homepage {
+  margin: 0% 10%;
+  max-height: 4000px;
+}
+
+.header-principal {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+h1 {
+  font-size: 16px;
+  margin-right: 43px;
+}

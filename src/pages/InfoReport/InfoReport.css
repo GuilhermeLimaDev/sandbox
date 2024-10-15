@@ -1,0 +1,172 @@
+.main-info {
+  height: 100vh;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.header-info {
+  margin: 10px 0px;
+}
+
+.header-info h1 {
+  font-size: 2em;
+  color: #6d56fc;
+}
+
+.header-info p {
+  color: #d6d6d6;
+}
+
+.sliders {
+  height: 90%;
+  width: 90%;
+}
+
+.sliders img {
+  height: 90%;
+  border-radius: 7px;
+}
+
+.images {
+  width: 100%;
+  height: 50vh;
+}
+
+.sliders button {
+  background-color: #6d56fc;
+  border-radius: 100px;
+}
+
+.sectioninfo1 {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.summary {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.summary p {
+  font-size: 15px;
+}
+
+.info-report {
+  display: block;
+}
+
+#datehour {
+  display: flex;
+  align-items: center;
+  margin-right: 15px;
+}
+
+#labeldatehour {
+  display: flex;
+}
+
+#datehour img {
+  width: 18px;
+}
+
+label h4 {
+  margin: 5px 0px;
+}
+
+textarea {
+  width: 100%;
+  height: 70%;
+  border: none;
+  outline: none;
+  background-color: rgba(109, 109, 109, 0.3);
+  border-radius: 7px;
+  padding: 25px;
+  color: #d6d6d6;
+  font-family: "Inter", sans-serif;
+  margin: 10px 0px;
+  cursor: pointer;
+}
+
+.response {
+  height: 20%;
+  margin: 10px 0px;
+}
+
+#button1 {
+  padding: 10px 25px;
+  border-radius: 7px;
+  border: solid 2px #6d56fc;
+  outline: none;
+  background: #6d56fc;
+  color: #f5f5f5;
+  cursor: pointer;
+  margin-right: 20px;
+}
+
+#button2 {
+  padding: 10px 25px;
+  border-radius: 7px;
+  border: solid 2px #f5f5f5;
+  outline: none;
+  background: none;
+  color: #f5f5f5;
+  cursor: pointer;
+}
+
+.buttons {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+#link-homepage {
+  background-color: #ffffff00;
+  padding: 0px;
+  border-radius: 0px;
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+}
+
+#link-homepage img {
+  width: 22px;
+}
+
+@media (max-width: 1000px) {
+  .summary p {
+    font-size: 12px;
+  }
+  .sliders {
+    height: 100%;
+  }
+
+  .sliders img {
+    height: 90%;
+    border-radius: 7px;
+  }
+  .response {
+    height: 15%;
+    margin: 20px 0px;
+  }
+  .sectioninfo1 {
+    display: grid;
+    grid-template-columns: 100%;
+  }
+  .main-info {
+    height: 150vh;
+    justify-content: flex-start;
+  }
+  .images {
+    height: 40vh;
+    margin: 20px 0px;
+  }
+  .header-info {
+    margin-top: 40px;
+  }
+  .buttons {
+    margin-top: 20px;
+  }
+}

@@ -1,0 +1,89 @@
+.reports {
+  background-color: rgb(46, 46, 46, 0.3);
+  display: flex;
+  height: 30%;
+  width: 50%;
+  color: #fff;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.div-img {
+  width: 100%;
+  height: 60%;
+}
+.informations {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin: 10px 0px;
+  padding: 10px 20px;
+}
+.slick-slide > div {
+  margin: 30px 60px;
+}
+
+#desc {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.informations h1 {
+  font-size: 30px;
+}
+
+.div-img img {
+  width: 100%;
+  height: 100%;
+}
+
+.main-cards-reports {
+  height: 220vh;
+}
+
+.section-reports {
+  height: 90%;
+}
+
+a {
+  text-decoration: none;
+  background-color: #6d56fc;
+  color: #ffffff;
+  border-radius: 7px;
+  padding: 5px 10px;
+  width: 30%;
+  text-align: center;
+  margin: 10px 0;
+  transition: background-color 0.5s;
+}
+
+a:hover {
+  background-color: #413499;
+  color: #fff;
+}
+
+table {
+  height: 40%;
+}
+
+@media (max-width: 1400px) {
+  .div-img {
+    display: none;
+  }
+  .reports {
+    height: 20%;
+  }
+}
+
+@media (max-width: 1200px) {
+  .informations {
+    width: 90%;
+    height: 70%;
+    font-size: 14px;
+  }
+  .slick-slide > div {
+    margin: 30px 5%;
+  }
+}

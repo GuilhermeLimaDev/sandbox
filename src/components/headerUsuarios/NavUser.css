@@ -1,0 +1,14 @@
+header {
+  color: #fff;
+}
+
+#addUsers {
+  padding: 10px 25px;
+  border-radius: 7px;
+  border: solid 2px #6d56fc;
+  outline: none;
+  background: #6d56fc;
+  color: #f5f5f5;
+  cursor: pointer;
+  margin-left: 20px;
+}

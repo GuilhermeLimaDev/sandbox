@@ -1,0 +1,39 @@
+.main-homepage {
+  color: #fff;
+}
+
+.header-info {
+  margin: 30px 0px;
+}
+
+.info-users {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+}
+
+.sectioninfo1 {
+  justify-content: center;
+}
+
+.old-info {
+  display: flex;
+  flex-direction: column;
+  background-color: #1d1d1d;
+  border-radius: 7px;
+  justify-content: center;
+}
+
+.old-info h4,
+p {
+  font-size: 18px;
+}
+
+.old-info label {
+  margin-left: 20px;
+}
+
+.forms h1 {
+  display: none;
+}
